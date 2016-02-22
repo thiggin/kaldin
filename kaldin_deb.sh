@@ -1,3 +1,4 @@
+
 #!/bin/bash
 #########               Installing Kaldin On-line Exam Management Solution #############
 #########               On Debian_7.0.0_x64 with Tomcat-7,Oracle-java7, MySQL5, Apache2, PHP5 and Webmin
@@ -5,8 +6,8 @@
 #####                   Kaldin is a java/tomcat based on-line assessment software to help instructors to create on-line assessments
 #####                   visit this page for more details: http://www.kaldin.com/
 
-KALDIN_VER=3.0;                                         ## Version of Latest Kaldin
-KALDIN_SOURCE=http://liquidtelecom.dl.sourceforge.net/project/kaldin/Kaldin-3.0/Kaldin-3.0.zip;    ## Direct download Link for Kaldin WAR file
+KALDIN_VER=4.0;                                         ## Version of Latest Kaldin
+KALDIN_SOURCE=http://downloads.sourceforge.net/project/kaldin/Kaldin-4.0/Kaldin-4.0.zip;    ## Direct download Link for Kaldin WAR file
 KALDIN_PROXY=/etc/apache2/conf-enabled/kaldin.conf;
 SOURCES_APT=/etc/apt/sources.list;
 APACHE_CONF=/etc/apache2/apache2.conf;
