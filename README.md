@@ -2,7 +2,7 @@
 
 ======
 
-This installs Kaldin_3.0 and dependencies (Tomcat7, Oracle-JDK7, MySQL 5.5) on Debian/Ubuntu, I have tested this on Debain7.0.0_x64 and Ubuntu14.04, so all other deb variants should also work.
+This installs Kaldin_4.0 and dependencies (Tomcat7, Oracle-JDK7, MySQL 5.5) on Debian/Ubuntu, I have tested this on Debain7.0.0_x64 and Ubuntu14.04, so all other deb variants should also work.
 
 This script also installs all latest and stable: Postfix MTA, PHPMyAdmin (I need this to edit certain settings, namely email_settings), Apache2 (Automatically configured for proxy)
 #(1) Requirements:
@@ -21,15 +21,15 @@ This script also installs all latest and stable: Postfix MTA, PHPMyAdmin (I need
 
 cd /tmp/
 
-curl --output /tmp/kaldin_debv3.sh https://raw.github.com/girishkg/kaldin/master/kaldin_deb.sh
+curl --output /tmp/kaldin_debv4.sh https://raw.github.com/thiggin/kaldin/master/kaldin_deb.sh
 
 (2.2) Make it executable:
 
-chmod +x /tmp/kaldin_debv3.sh
+chmod +x /tmp/kaldin_debv4.sh
 
 (2.3) Run the install script: 
 
-./kaldin_debv3.sh
+./kaldin_debv4.sh
 
 (2.4) Folow the on-screen instructions to complete the installation.
 
@@ -37,7 +37,7 @@ chmod +x /tmp/kaldin_debv3.sh
 
 # (3) What it gonna do!
 
-(3.1) Installs all stable requirements MySQL, Apache2, Tomcat7, Kaldin_3.0, PHP5, PHPMyAdmin, Oracle_JDK_1.7
+(3.1) Installs all stable requirements MySQL, Apache2, Tomcat7, Kaldin_4.0, PHP5, PHPMyAdmin, Oracle_JDK_1.7
 
 (3.2) Sets Apache2 as proxy for Tomcat7.
 
